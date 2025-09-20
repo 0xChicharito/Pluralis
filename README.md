@@ -189,6 +189,17 @@ File start_server.sh is generated. Run ./start_server.sh to join the experiment.
 
 <img width="1209" height="206" alt="image" src="https://github.com/user-attachments/assets/c7781f42-75ca-4383-992d-8b227c1446c4" />
 
+**Upgrade
+```bash
+cd ~/node0  # hoặc đường dẫn đến thư mục node0 bạn đã clone trước đó
+git pull origin main
+```
+```bash
+conda activate node0
+```
+```bash
+pip install .
+```
 
 **8. Screen commands**
 * Minimize screen: `Ctrl`+`A`+`D`

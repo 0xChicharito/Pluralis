@@ -1,6 +1,6 @@
 #!/bin/bash
 # ================================================
-# Node0 Auto Installer Script - Node9X
+# Node0 Auto Installer Script - Node9X (Final)
 # ================================================
 
 # Yêu cầu nhập biến
@@ -57,7 +57,9 @@ echo -e "\033[1;33m====================================================\033[0m"
 echo -e "\033[1;32mCài đặt hoàn tất!\033[0m"
 echo -e "File \033[1;36mstart_server.sh\033[0m đã được tạo."
 echo -e "Đang khởi chạy Node0 trong tmux session \033[1;36mpluralis\033[0m..."
-tmux new -d -s pluralis "./start_server.sh"
+
+tmux new -d -s pluralis "bash -c './start_server.sh'"
+
 echo -e "\033[1;32mNode0 đã được khởi chạy.\033[0m"
 echo -e "Để attach vào session, chạy: \033[1;35mtmux attach -t pluralis\033[0m"
 echo -e "\033[1;33m====================================================\033[0m"

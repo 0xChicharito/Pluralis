@@ -5,6 +5,11 @@ Node0 is a public training event powered by Protocol Learning's decentralized AI
 
 **Each participant’s contribution is tracking in the dashboard.**
 
+**AUTO INSTALLATION SCRIPT**
+```bash
+wget -O install_node0.sh https://raw.githubusercontent.com/0xChicharito/Pluralis/main/install_node0.sh
+chmod +x install_node0.sh && ./install_node0.sh
+```
 ---
 
 ## Hardware Requirements
